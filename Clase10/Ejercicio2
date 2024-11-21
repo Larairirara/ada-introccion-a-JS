@@ -1,0 +1,15 @@
+//ejercicio #2: usando las variable
+//pedir datos al usuario para crear un mensaje personalizado con esta info
+
+const prompt = require("prompt-sync")({sigint: true});
+
+//pedir nombre
+let name = prompt("Ingrese su nombre: ");
+console.log(`Hola ${name}`);
+
+
+
+
+
+
+
