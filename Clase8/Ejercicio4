@@ -1,0 +1,14 @@
+ const prompt = require("prompt-sync")({ sigint: true }); 
+let numero = parseFloat(prompt(`ingrese un catidad de estudiantes en la clase: `));
+let numeroDeGrupos = parseFloat(prompt(`ingrese cantidad de grupos a armar: `));
+let integrantesXgrupo = (numero % numeroDeGrupos)
+let ejercicio = '';
+if(integrantesXgrupo >12){
+ejericio = `no sera posible`
+}else if(integrantesXgrupo = %2){
+ejercicio = `posible`
+}else{
+ejercicio= `buscar otra actividad`
+}
+
+console.log(`si la cantidad de integrantesXgrupo es: `, ejercicio);
