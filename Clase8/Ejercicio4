@@ -3,7 +3,9 @@ let numero = prompt(`ingrese numero: `);
 let resultado = ``;
 
 if(numero%2){
-resultado = `par`
-}else{ 
 resultado = `impar`
+}else{ 
+resultado = `par`
 }
+
+console.log(`el numero ingresado es: `,resultado);
